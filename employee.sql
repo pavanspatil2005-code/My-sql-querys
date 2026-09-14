@@ -65,7 +65,7 @@ select name,salary,age from employee where age= (select min(age) from employee w
 
 delete  from employee; 
 
-ROLLBACK;
+
 
 
 
